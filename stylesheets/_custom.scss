@@ -1,0 +1,323 @@
+/*****************************START CUSTOM CSS*******************************/
+/******************* ********* General Styles **********************/
+a, a:hover {
+  text-decoration: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.wysiwyg-more {
+  font-family: 'Montserrat', sans-serif;
+}
+.site {
+  background: #fff;
+  width: 100%;
+}
+.flex {
+  display: flex;
+  overflow: hidden;
+}
+.float-right {
+  float: right;
+}
+.learnmore {
+  padding: 15px;
+  text-transform: uppercase;
+  border: none;
+  width: 150px;
+  font-size: 1.1em;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+}
+.mobile, .none {
+  display: none;
+}
+.no-padding {
+  padding: 0;
+}
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+.moreabout h2 {
+  word-wrap: break-word;
+  text-align: center;
+}
+.moreabout p {
+  text-align: center;
+  word-wrap: break-word;
+}
+.moreabout {
+  text-align: center;
+}
+.outerwrapper {
+  //padding 0 45px 0 45px;
+  margin-bottom: 75px;
+}
+
+/*************** *** *********  END General Styles **************************
+*****************************************************************************
+*                                                                           *
+*                              Colour Sets                                  *
+*                                                                           *
+*****************************************************************************
+*/
+a {
+   color: #01a5ce;
+}
+.contact-tel {
+   color: #01a5ce;
+  }
+  .contact-info .tel, .contact-info .contact-email {
+   color: #01a5ce;
+}
+body {
+   background: #efefef;
+}
+.bluejumbo {
+  background-color: #01a5ce;
+  color: white;
+}
+.learnmore, .learnmore:hover, .learnmore:visited, .learnmore:focus, .learnmore:active {
+  background-color: #01a5ce;
+  color: white;
+}
+.learnmore.revlearnmore, .learnmore.revlearnmore, .learnmore.revlearnmore, .learnmore.revlearnmore, .learnmore.revlearnmore  {
+  background-color: white;
+  color: #01a5ce;
+}
+.bluejumbo.mobile-hide a {
+  color: white;
+}
+.full-blue {
+  background-color: #01a5ce;
+}
+.full-grey {
+  background-color: grey;
+}
+.wysiwyg-touts h2, .case-study h2, .news h2 {
+  color: #01a5ce;
+}
+.news .date {
+  color: white;
+  background-color: #01a5ce;
+}
+/******************* **********END COLOUR SETS*******************************/
+
+/******************* ********* Header **********************/
+.site-header {
+  height: 65px;
+  //min-width 840px;
+}
+.site-branding {
+  display: inline-block;
+  padding: 0;
+}
+.site-branding img {
+  height: 65px;
+}
+.social-links-menu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.social-links-menu li {
+  display: inline-block;
+}
+.social-navigation {
+  display: inline-block;
+  position: relative;
+  top: -6px;
+}
+.social-media-link img {
+      height: 22px;
+}
+.upper-header {
+   display: inline-block;
+  height: 65px;
+  vertical-align: top;
+  float: right;
+}
+.header-contact {
+  text-align: right;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+.contact-tel {
+  text-decoration: none;
+  font-size: 3em;
+  font-weight: bold;
+  padding-right: 15px;
+}
+/******************* ********* END Header **********************/
+/******************* ********* Footer **********************/
+.footer-nav ul {
+  list-style: none;
+}
+.footer-nav ul li {
+  float: left;
+  padding-right: 10px;
+}
+.footer-nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-nav p {
+  margin: 0px;
+}
+.site-info {
+  margin-bottom: 25px;
+}
+.social-links {
+  text-align: right;
+}
+.contact-info p {
+  width: 270px;
+  text-align: right;
+  float: right;
+}
+.contact-info .tel {
+  margin-right: 10px;
+}
+/******************* ********* END Footer **********************/
+
+/******************* ********* Home Page Specific Styles **********************/
+.home h3 {
+  font-size: 1.3em;
+  margin-top: 0;
+}
+
+/*************** *** *********  END Home Page Specific Styles *****************************/
+/******************* *********  Wysiwyg-touts Content Block **********************/
+.wysiwyg-touts iframe, .wysiwyg-touts img {
+  max-width: 251px;
+  height: auto;
+}
+.wysiwyg-touts h2 {
+  min-height: 70px;
+}
+.snippet {
+  max-width: 66%;
+  margin: auto;
+}
+
+/******************* *********  END Wysiwyg-touts Content Block **********************/
+/******************* *********  Bluejumbo Content Block **********************/
+.bluejumbo {
+  text-align: center;
+  padding: 40px 0 40px 0;
+  text-align: left;
+}
+.leftbluejumbo h2 {
+  font-size: 4em;
+  max-width: 400px;
+}
+.bluejumbo p {
+  font-size: 2.2em;
+}
+/*************** *** *********  END Bluejumbo Content Block *****************************/
+/******************* *********  Case Study Content Block **********************/
+
+.case-study li {
+  list-style: none;
+}
+.case-study img {
+  width: 250px;
+}
+.case-study h3 {
+  font-size: 1.4em;
+}
+.case-study .readmoreline {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+.studies-list img {
+  width: 250px;
+}
+.studies-list li {
+  list-style: none;
+}
+.case-study ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*************** *** *********  END Case Study Content Block *****************************/
+/*************** *** *********  News Content Block ***************************************/
+.news .date {
+border-radius: 50%;
+padding: 12px 7px;
+margin-left: -16px;
+}
+/*************** *** *********  END News Content Block *****************************/
+/******************* *********  Blurb Content Block **************************************/
+.blurb {
+  display: flex;
+}
+/*************** *** *********  END Blurb Content Block *****************************/
+
+ /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+}
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+       .home .wysiwyg-touts h2 {
+      font-size: 2.1em;
+      min-height: 50px;
+    }
+}
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    .site-branding {
+     margin-top: 35px;
+     margin-bottom: 35px;
+    }
+    .site-info {
+      margin-bottom: 0;
+      text-align: center;
+    }
+    .footer-col {
+      margin-bottom: 35px;
+    }
+    .contact-info p {
+    width: 240px;
+    text-align: center;
+    float: none;
+    margin: auto;
+    }
+    .social-links {
+      text-align: center;
+    }
+    .footer-nav ul li {
+      display: inline-block;
+      float: none;
+    }
+    header .social-navigation {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
+    .mobile-hide {
+      display: none;
+    }
+    .leftbluejumbo h2 {
+        font-size: 4em;
+    }
+}
+
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+
+}
